@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 namespace AspNetCoreDemoApp.Controllers
 {
@@ -10,7 +10,7 @@ namespace AspNetCoreDemoApp.Controllers
 		[HttpGet]
 		public IEnumerable<string> Get()
 		{
-			return new[] { "value1", "value2" };
+			return new[] { "Fuck Cason", "Fuck Haven" };
 		}
 
 		// GET api/values/5
